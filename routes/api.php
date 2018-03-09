@@ -19,7 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 // " /api/.....
 
-
+//route ;;
 Route::get('/vendor', 'VendorController@index');
 
 Route::get('/vendor/{vendor}', 'VendorController@show');
